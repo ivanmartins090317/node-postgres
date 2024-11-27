@@ -1,9 +1,6 @@
 const { query } = require('./index')
 
-console.log('modelDatabase');
-
-
-async function modelDatabase() {
+async function ProductModelDatabase() {
   await query(`
     CREATE TABLE IF NOT EXISTS products (
       id SERIAL PRIMARY KEY,
@@ -21,4 +18,4 @@ async function modelDatabase() {
 }
 
 
-modelDatabase()
+ProductModelDatabase()

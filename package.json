@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "db": "node ./src/database/model-database.js",
+    "db": "node ./src/database/productModel-database.js",
+    "db-2": "node ./src/database/custumerModel-database.js",
     "dev": "node --watch ./src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
